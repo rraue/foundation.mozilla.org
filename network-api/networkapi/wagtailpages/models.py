@@ -774,10 +774,6 @@ class ParticipatePage2(PrimaryPage):
     ]
 
 
-class PeoplePage(PrimaryPage):
-    parent_page_types = ['Homepage']
-
-
 class Styleguide(PrimaryPage):
     parent_page_types = ['Homepage']
     template = 'wagtailpages/static/styleguide.html'
